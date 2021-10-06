@@ -1,0 +1,29 @@
+.timerobj{
+	width: 7em;
+	display:grid;
+	place-items:center;
+	grid-template-columns: 3em 1fr  ;	
+    font-family: var(--fnt-button);
+    font-size:1em;
+    color: darkgray;
+}
+.circ{
+    fill:darkgray;
+}
+.poly{
+    fill:dimgray;
+}
+#clear{
+  display:none;
+}
+#toggle {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.play-btn {
+	grid-column: 2/3;
+	grid-row: 1/1;
+	z-index: 999;
+}
